@@ -226,19 +226,7 @@ const Hero = () => {
       </div>
 
       {/* ===== Scroll Indicator ===== */}
-      <motion.div
-        className="scroll-indicator"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, y: [0, 10, 0] }}
-        transition={{
-          duration: 1.5,
-          repeat: Infinity,
-          ease: "easeInOut",
-          delay: 1,
-        }}
-      >
-        ↓ Scroll Down
-      </motion.div>
+    
     </motion.div>
   );
 };
